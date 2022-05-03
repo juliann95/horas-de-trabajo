@@ -81,7 +81,7 @@ def main():
 
 	lista_usuarios = generar_lista("recordList.csv")
 	mostra_lista(lista_usuarios)
-	num_usuario = 14#int(input("ingrese un num de usuario"))
+	num_usuario = int(input("ingrese un num de usuario"))
 	x = usuario(lista_usuarios[num_usuario-1]) 
 	x.mostrar_dias_presente()
 
